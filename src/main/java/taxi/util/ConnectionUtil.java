@@ -6,9 +6,10 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class ConnectionUtil {
-    private static final String URL = "jdbc:mysql://localhost:3306/taxi";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "root";
+    private static final String URL = "jdbc:mysql:"
+            + "//taxi.ctgf6grns24i.eu-north-1.rds.amazonaws.com/taxi";
+    private static final String USERNAME = "database_1";
+    private static final String PASSWORD = "rootroot";
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 
     static {
