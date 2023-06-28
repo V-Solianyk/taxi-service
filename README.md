@@ -11,10 +11,11 @@ This project is a "Taxi service" - a web application to show simple CRUD operati
 - adding a driver to a car
 - display a list of cars by a specific driver
 - display a list of all drivers/countries/manufacturers
-# Link to the project on Heroku
+# Link to the AWS
+You can test and see how the program works by following this link: [Link](http://Finallyversion-env.eba-jsahsfze.eu-north-1.elasticbeanstalk.com)
 
 # Used technologies
-Maven, Java programming language (JDK 17), JDBC, Java Servlet, JSP and HTML, Tomcat 9.0.50, MySQL 8.0.
+Maven, Java programming language (JDK 11), JDBC, Java Servlet, JSP and HTML, Tomcat 9.0.50, MySQL 8.0.
 # Project structure
 This project is designed to meet the standards of multi-level architecture. Therefore, the project is divided into the following levels:
 - representation: it is a package of controllers for each model separately (car, country, driver) and, accordingly, for each entity there are several controllers, each of which is responsible for one function;
